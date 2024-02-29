@@ -26,3 +26,4 @@ public class PortalUser {
     String address;
     String type;
 }
+

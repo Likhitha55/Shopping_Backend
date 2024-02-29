@@ -21,7 +21,7 @@ public class Product {
     String productName;
     int price;
     int quantity;
-    PortalUser sellerId;
+    PortalUser seller;
     double rating;
     String productType;
 }
