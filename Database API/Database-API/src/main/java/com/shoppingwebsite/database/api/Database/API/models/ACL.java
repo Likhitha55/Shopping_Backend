@@ -1,20 +1,23 @@
 package com.shoppingwebsite.database.api.Database.API.models;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.*;
 
 import java.util.UUID;
 
-@Table
+@Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
 @ToString
-public class OrderVsProduct {
+public class ACL {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     UUID id;
-    UUID productId;
-    UUID orderId;
+    String requester;
+    String operation;
 }

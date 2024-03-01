@@ -1,4 +1,4 @@
-package com.shoppingwebsite.database.api.Database.API.DTO;
+package com.shoppingwebsite.database.api.Database.API.DTO.RequestBody;
 
 import lombok.*;
 

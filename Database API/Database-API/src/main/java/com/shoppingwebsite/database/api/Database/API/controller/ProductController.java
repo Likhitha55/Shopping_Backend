@@ -1,6 +1,6 @@
 package com.shoppingwebsite.database.api.Database.API.controller;
 
-import com.shoppingwebsite.database.api.Database.API.DTO.ProductReqBody;
+import com.shoppingwebsite.database.api.Database.API.DTO.RequestBody.ProductReqBody;
 import com.shoppingwebsite.database.api.Database.API.models.PortalUser;
 import com.shoppingwebsite.database.api.Database.API.models.Product;
 import com.shoppingwebsite.database.api.Database.API.repository.PortalUserRepo;
